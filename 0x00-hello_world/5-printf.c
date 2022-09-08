@@ -1,6 +1,6 @@
 #include <studio.h>
 /**
- * main - main function
+ * main - main block
  * Description: "trying out prinf method"
  * Return: 0
  *
