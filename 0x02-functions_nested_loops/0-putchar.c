@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - main code block
  * Description: program should print _putchar followed by a new line
@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	_putchar("_putchar\n")
+	_putchar('_putchar\n')
 		return (0)
 }
