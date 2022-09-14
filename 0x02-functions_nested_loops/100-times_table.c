@@ -10,9 +10,9 @@ void print_times_table(int n)
 
 	if (n >= 0 && n <= 14) // if n is less than or equal to zero and n is greater than or equal to 14
 	{
-		for (x = 0; x <= n; x++) //run the possible values of n till n itself
+		for (x = 0; x <= n; x++) //run the possible values of x till x = n
 		{
-			for (y = 0; y <= n; y++) // run the possible value for y till y itself
+			for (y = 0; y <= n; y++) // run the possible value for y till y = n
 			{
 				z = x * y; // multiply x and y 
 				if (z > 99) // if the product of x and y is greater than 99 i.e 3 digits
