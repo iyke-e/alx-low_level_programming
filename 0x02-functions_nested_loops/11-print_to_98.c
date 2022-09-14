@@ -16,10 +16,10 @@ void print_to_98(int n)
 				pintf("%d", n);
 				printf("\n");
 				break;
-		}
-		else
-		{
-			printf("%d, ", n);
+			}
+			else{
+				printf("%d, ", n);
+			}
 		}
 	}
 }
