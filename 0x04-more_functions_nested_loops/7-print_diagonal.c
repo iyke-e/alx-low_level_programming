@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * void print_diagonal - funtion that draws diagonal lines
- * @n number of space before line
+ * print_diagonal - funtion that draws diagonal lines
+ * @n: number of space before line
  */
 
 void print_diagonal(int n)
@@ -23,6 +23,3 @@ void print_diagonal(int n)
 	}
 	_putchar('\n');
 }
-
-		
-
