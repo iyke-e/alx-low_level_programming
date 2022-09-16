@@ -10,20 +10,17 @@ void print_triangle(int size)
 
 	if (size > 0)
 	{
-		for (spc = 0; spc < size; spc++)
+		for (hash = 1; hash <= size; hash++)
 		{
-			_putchar(' ');
-
-			for (hash = 0; hash < spc; hash++)
+			for (spc = 1; spc <= size; spc++)
 			{
-				_putchar('#');
+				if (spc <= size - hash)
+					_putchar(' ');
+				else
+					_putchar('#');
+				
+				_putchar('\n');
 			}
-
-			if (hash == spc - 1)
-				continue;
-
-			_putchar('\n');
 		}
-	}
-	_putchar('\n');
+	}_putchar('\n');
 }
