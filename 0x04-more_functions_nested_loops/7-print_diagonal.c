@@ -1,25 +1,24 @@
 #include "main.h"
-
 /**
- * print_diagonal - funtion that draws diagonal lines
- * @n: number of space before line
+ * print_diagonal - print diagonal line
+ * @n: number of times \ is printed
  */
 
 void print_diagonal(int n)
 {
-	int c, s;
+	int d, s;
 
-	if (n > 0)
+	while (n > 0)
 	{
-		for (c = 1; c <= n; c++)
+		for (d = 1; d <= n; d++)
 		{
-			for (s = 1; s < count; s++)
-				_putchar(' ');	
-
-			_putchar('\\')
-			_putchar('\n');
+			for (s = 1; s <= (d-1); s++);
+			{
+				_putchar(' ');
+			}
+			_putchar ('\\');
+			_putchar ('\n');
 		}
 	}
-	else
-		_putchar('\n');
+	_putchar ('\n');
 }
