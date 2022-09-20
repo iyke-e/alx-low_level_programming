@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_array - prints n elements of arrays of integer
- * @a: array of integer. 
+ * @a: array of integer
  * @n: number of element to be prited
  */
 
