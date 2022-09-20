@@ -4,7 +4,7 @@
  * @str: string to be cut in half
  */
 
-void puts_half(char *str);
+void puts_half(char *str)
 {
 	int index = 0; len = o, n;
 
