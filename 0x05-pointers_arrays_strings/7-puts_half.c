@@ -1,0 +1,24 @@
+#include "main.h"
+/**
+ * puts_half - prints half of a string
+ * @str: string to be cut in half
+ */
+
+void puts_half(char *str);
+{
+	int index = 0; len = o, n;
+
+	while (str[index++])
+		len++;
+
+	if ((len % 2) == 0)
+		n = len / 2;
+
+	else
+		n = (len + 1) / 2;
+
+	for (index = n; index < len; index++)
+		_putchar(str[index]);
+
+	_putchar('\n');
+}
