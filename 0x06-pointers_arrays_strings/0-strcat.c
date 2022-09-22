@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat - appends tow strings 
+ * _strcat - appends tow strings
  * @dest: sting to be added to another
  * @src: string to be added to another
  * Return: dest
