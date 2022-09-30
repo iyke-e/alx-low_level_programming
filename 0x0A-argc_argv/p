@@ -1,0 +1,6 @@
+git add .
+
+git commit -m "solution updated"
+
+git push
+
