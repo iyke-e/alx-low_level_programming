@@ -1,6 +1,13 @@
+
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
+
+void print_char(va_list arg);
+void print_int(va_list arg);
+void print_float(va_list arg);
+void print_string(va_list arg);
+void print_all(const char * const format, ...);
 
 /**
  * print_char - Prints a char.
@@ -66,9 +73,9 @@ void print_string(va_list arg)
  * @format: A string of characters representing the argument types.
  * @...: A variable number of arguments to be printed.
  *
- * Return: Any argument not of type char, int, float,
- * or char * is ignored.
- * If a string argument is NULL, (nil) is printed instead.
+ * Description: Any argument not of type char, int, float,
+ *              or char * is ignored.
+ *              If a string argument is NULL, (nil) is printed instead.
  */
 void print_all(const char * const format, ...)
 {
