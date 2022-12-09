@@ -39,5 +39,3 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 
 	return (new);
 }
-Footer
-© 2022 Git
