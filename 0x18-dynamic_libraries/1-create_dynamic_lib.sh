@@ -1,4 +1,3 @@
-101-make_me_win.sh
-
-
-
+#!/bin/bash
+gcc -fPIC -c *.c
+gcc -shared -o liball.so *.o
